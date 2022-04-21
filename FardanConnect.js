@@ -1414,7 +1414,7 @@ ${yes}wit : ${timeWit}${yes}
 
 
 
-${yes}Creator by Fax${yes}
+${yes}Creator by Manz${yes}
        
        
        
@@ -2219,7 +2219,6 @@ buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `NEXT`},typ
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await Fardan.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               Fardan.relayWAMessage(prep)
-    
 break
 case 'memekertas':
                 if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
