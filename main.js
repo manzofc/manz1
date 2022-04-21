@@ -73,8 +73,8 @@ exec(`cd /sdcard/download && play *mp3`)
    
    Fardan.on('chat-update', async (mek) => {
         require('./FardanConnect.js')(Fardan, mek)
-        ownerNumber = ["6281523940672@s.whatsapp.net","6281523940672@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6281523940672@s.whatsapp.net"
+        ownerNumber = ["6283830930651@s.whatsapp.net","6283830930651@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "6283830930651@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })   
     
@@ -120,7 +120,7 @@ headerType: 4 }
 			mhan = await Fardan.prepareMessage(mdata.id, buff, MessageType.image, {thumbnail: ppimg})
 const buttonMessages = { imageMessage: mhan.message.imageMessage,
 contentText: `${keluar}`,
-footerText: `Created By Fax︎`,
+footerText: `Created By Manz`,
 buttons: gbutsan,
 headerType: 4 }
 			Fardan.sendMessage(mdata.id, buttonMessages, MessageType.buttonsMessage, { thumbnail: fs.readFileSync('./Fardan.jpg'), "contextInfo": { mentionedJid: [num]}, caption: 'Tes', quoted: fkontakk})
